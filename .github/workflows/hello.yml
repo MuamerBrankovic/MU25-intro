@@ -1,0 +1,17 @@
+name: Min första workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hälsa:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hämta koden
+        uses: actions/checkout@v4
+
+      - name: Skriv ut ett meddelande
+        run: echo "Hej! Min GitHub Action fungerar!"
