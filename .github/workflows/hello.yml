@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Hämta koden
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Skriv ut ett meddelande
         run: echo "Hej! Min GitHub Action fungerar!"
