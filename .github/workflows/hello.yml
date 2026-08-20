@@ -25,3 +25,7 @@ jobs:
           do 
           echo "Nummer: $i"
           done
+
+      - name: Visa branch-namn
+        run: |
+          echo "Running on branch $GITHUB_REF"
