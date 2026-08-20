@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   greeting:
@@ -15,3 +18,10 @@ jobs:
 
       - name: Skriv ut ett meddelande
         run: echo "Hej! Min GitHub Action fungerar!"
+
+      - name: min loop
+        run: |
+          for i in 1 2 3 4 5
+          do 
+          echo "Nummer: $i"
+          done
