@@ -28,4 +28,4 @@ jobs:
 
       - name: Visa branch-namn
         run: |
-        echo "kor på branch: $GITHUB_REF"
+         echo "kor på branch: $GITHUB_REF"
