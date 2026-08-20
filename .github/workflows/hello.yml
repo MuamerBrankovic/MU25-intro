@@ -27,4 +27,5 @@ jobs:
           done
 
       - name: Visa branch-namn
-        run: echo "kör på branch: $GITHUB_REF"
+        run: |
+        echo "kor på branch: $GITHUB_REF"
